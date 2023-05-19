@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.HeaderBar {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5vw;
+}
+
+header img {
+    height: 8vh;
+    position: absolute;
+    top: 1vh;
+    margin-left: 3vw;
+}
+
+.buttonColor {
+    background-color: #d90368 !important;
+}
+
+.buttonOne {
+    margin-right: 1vw;
+}
+
+.buttonTwo {
+    margin-right: 1vw;
+}
+
+.buttonThree {
+    margin-right: 1vw;
+}
+
+.buttonFour {
+    margin-right: 1vw;
+}
+
+.buttonFive {
+    margin-right: 1vw;
+}
+
+.NavBar {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #d90368;
+}
+
+.NavBar h1 {
+    color: white;
+}
+
+.NavBar i {
+    color: white;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.checks {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 4vh;
+    margin: 25px;
+}
+
+footer {
+    margin-top: 3vh;
+    background-color: #d90368;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+}
+
+footer i {
+    font-size: 5vh;
+    color: white;
+    margin-top: 2vh;
+}
+
+h3 {
+    position: relative;
+    margin-right: 3vw;
+    left: 70vw;
+    color: white;
+}
+
+.footerListOne {
+    margin-right: 2vw;
+}
+
+.footerListTwo {
+    margin-right: 2vw;
+}
+
+.contentCardPrice{
+    position: relative;
+}
+
+.contentCardPrice p{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 15%;
+    top: 10%
+}
+
+.nav-pills .nav-link.active{
+    --bs-nav-pills-link-active-bs: #EFC2C0;
+    --bs-nav-pills-link-active-color: #D90368;
+}
+
+.navUpcoming::before {
+    position: absolute;
+    top: 25px;
+    left: -40px;
+    display: block;
+    box-sizing: border-box;
+    content: "Upcoming";
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+    height: 0;
+    width: 150px;
+    border: 25px solid transparent;
+    border-bottom: 25px solid #d90368;
+    line-height: 23px;
+    z-index: 20;
+    transform: rotate(-45deg);
+}
+
+.navPast::before {
+    position: absolute;
+    top: 25px;
+    left: -40px;
+    display: block;
+    box-sizing: border-box;
+    content: "Past";
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+    height: 0;
+    width: 150px;
+    border: 25px solid transparent;
+    border-bottom: 25px solid #d90368;
+    line-height: 23px;
+    z-index: 20;
+    transform: rotate(-45deg);
+}

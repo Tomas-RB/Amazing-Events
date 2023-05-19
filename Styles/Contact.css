@@ -1,0 +1,24 @@
+.formContact {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 5vh;
+}
+
+.comment {
+    margin-top: 4vh;
+}
+
+.buttonContact {
+    margin-left: 64vw;
+    margin-top: 3vh;
+}
+
+.nameContact {
+    margin-top: 1vh;
+}
+
+.mailContact {
+    margin-top: 1vh;
+}

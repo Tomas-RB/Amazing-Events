@@ -1,0 +1,22 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+
+.card {
+    height: 45vh;
+    margin-top: 4vh;
+    box-shadow: -5px -3px 12px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -5px -3px 12px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px -3px 12px -4px rgba(0, 0, 0, 0.75);
+}
+
+.card img{
+    height: 20vh;
+}
+
+main img {
+    height: 30vh;
+}

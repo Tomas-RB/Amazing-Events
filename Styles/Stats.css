@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    margin-top: 2vh;
+}
+
+th,
+tr,
+td {
+    border: 1px solid #d90368;
+    width: 90vw;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+th {
+    color: #fff;
+    background-color: #d90368;
+}
+
+tr:nth-child(odd) td {
+    background-color: #eee;
+}
